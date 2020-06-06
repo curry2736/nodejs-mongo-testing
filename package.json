@@ -1,13 +1,16 @@
 {
   "name": "nodejsmongotest",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.17.0"
+  },
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "devStart": "nodemon server.js"
   },
-  "engines": {"node": "12.17.0"},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
